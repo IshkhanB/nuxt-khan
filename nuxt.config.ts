@@ -10,5 +10,8 @@ export default defineNuxtConfig({
   },
   vite:{
     base: '/nuxt-khan/'
+  },
+  nitro:{
+    plugins: ['plugins/extend-html.ts']
   }
 })
