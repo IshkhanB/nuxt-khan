@@ -1,5 +1,5 @@
 <template>
-<header>Заголовок страницы</header>
+<!-- <header>Заголовок страницы</header>
 
 <nav>Меню навигации</nav>
 
@@ -9,7 +9,7 @@
  Контент - основное содержимое страницы.
 </article>
 
-<footer>Подвал сайта</footer>
+<footer>Подвал сайта</footer> -->
 
 <nav>
 <NuxtLink to="/about">About </NuxtLink>
