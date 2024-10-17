@@ -8,8 +8,8 @@ export default defineNuxtConfig({
       enabled: true
     }
   },
-  vite:{
-    base: '/nuxt-khan/'
+  app:{
+    baseURL: '/nuxt-khan/'
   },
   nitro:{
     plugins: ['plugins/extend-html.ts']
