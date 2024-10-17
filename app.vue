@@ -12,9 +12,9 @@
 <footer>Подвал сайта</footer>
 
 <nav>
-<NuxtLink to="http://localhost:3000/about">About </NuxtLink>
+<NuxtLink to="/about">About </NuxtLink>
 <br>
-<NuxtLink to="http://localhost:3000">Home</NuxtLink>
+<NuxtLink to="/">Home</NuxtLink>
 </nav>
   <div>
     <NuxtLayout>
