@@ -11,10 +11,12 @@
 
 <footer>Подвал сайта</footer> -->
 
-<nav>
+<nav class="menu">
 <NuxtLink to="/about">About </NuxtLink>
 <br>
 <NuxtLink to="/">Home</NuxtLink>
+<br>
+<NuxtLink to="/about/us">About/us </NuxtLink>
 </nav>
   <div>
     <NuxtLayout>
@@ -23,9 +25,25 @@
 
   </div>
 </template>
+<script setup>
+const description = ref('Мой невероятный сайт.')
+
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - Заголовок сайта` : 'Home';
+  }
+})
+</script>
 
 <style>
-
+body{
+  text-align: center;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 </style>
 <!-- 
 <style lang="scss">
