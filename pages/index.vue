@@ -3,7 +3,7 @@
 
   <h1>Hello from index Page</h1>
   <h2>Hello from index Page</h2>
-  <MenuAppAlert></MenuAppAlert>
-  <AppAlert></AppAlert>
+  <!-- <MenuAppAlert></MenuAppAlert> -->
+  <!-- <AppAlert></AppAlert> -->
 
 </template>

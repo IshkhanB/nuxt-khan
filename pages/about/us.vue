@@ -1,3 +1,7 @@
 <template>
-  <h1>Hello from about/us Page</h1>
+  <div>
+    <form >
+      <img src="" alt="">
+    </form>
+  </div>
 </template>
