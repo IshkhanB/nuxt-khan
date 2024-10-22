@@ -11,7 +11,8 @@ export default defineNuxtConfig({
   },
 
   app:{
-    baseURL: '/nuxt-khan/'
+    baseURL: '/nuxt-khan/',
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
 
   nitro:{
