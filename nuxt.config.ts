@@ -19,5 +19,5 @@ export default defineNuxtConfig({
     plugins: ['plugins/extend-html.ts']
   },
 
-  modules: ['@pinia/nuxt','@prisma/nuxt']
+  modules: ['@pinia/nuxt','@prisma/nuxt','@luxdamore/nuxt-canvas-sketch']
 })
